@@ -317,7 +317,12 @@ footer {
 
 /* Mobile  */
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:688px) and (max-width:992px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .continer {
         width: 100%;
     }
@@ -333,6 +338,7 @@ footer {
     }
 
     .banner-1 {
+        width: fit-content;
         position: absolute;
         width: 404px;
         height: 222px;
@@ -363,6 +369,7 @@ footer {
     }
 
     .banner-2 {
+        width: fit-content;
         position: absolute;
         width: 257px;
         height: 257px;
@@ -385,7 +392,76 @@ footer {
     }
 
     .cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+
     }
+
+    .cards {
+        width: 300px;
+    }
+
+    .card-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .price {
+        font-weight: 700;
+    }
+
+    .ratting span {
+        font-weight: 500;
+    }
+
+    .card-text {
+        font-weight: 400;
+    }
+
+    .feature {
+        padding-bottom: 550px;
+        position: relative;
+    }
+
+    .feature-info {
+
+        width: fit-content;
+        position: absolute;
+        width: 257px;
+        height: 257px;
+        left: 51px;
+        top: 81px;
+    }
+
+    .feature-img {
+        position: absolute;
+        width: 299px;
+        height: 188px;
+        left: 30px;
+        top: 352px;
+    }
+
+    .title-h2 {
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        color: #0A0826;
+    }
+
+    .product-info-2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #6C6C6C;
+    }
+
+    .join-now {
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
 
 }
