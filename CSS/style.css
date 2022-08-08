@@ -316,3 +316,76 @@ footer {
 /* Media Queries */
 
 /* Mobile  */
+
+@media only screen and (max-width:688px) {
+    .continer {
+        width: 100%;
+    }
+
+    .site-logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner {
+        padding-bottom: 550px;
+        position: relative;
+    }
+
+    .banner-1 {
+        position: absolute;
+        width: 404px;
+        height: 222px;
+        left: -22px;
+        top: 352px;
+
+    }
+
+    .banner-1 h1 {
+        font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        color: #3A3A3A;
+    }
+
+    .banner-1 p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #3A3A3A;
+    }
+
+    .banner-1 a {
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .banner-2 {
+        position: absolute;
+        width: 257px;
+        height: 257px;
+        left: 51px;
+        top: 81px;
+
+    }
+
+    .company-logo {
+        display: none;
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: #3A3A3A;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
